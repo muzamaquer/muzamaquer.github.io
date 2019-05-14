@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html"><img class="logo" src="pic/logo_menu.png" alt="Логотип магазина"></a>
+            <ul class="menu">
+                <li class=" menu-list menu-list-1"><a class="menu-link" href="index.html">Главная</a></li>
+                <li class="menu-list"><a class="menu-link" href="catalog.html">Каталог</a></li>
+                <li class="menu-list"><a class="menu-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+        <h3>Напишите нам</h3>
+        <form class="fdbck">
+            <div class="feed-back-form-main">
+                <div class="formrow">
+                    <label class="form-label" for="contactname">Имя:</label>
+                    <input class="fdbckform capitalize" type="text" name="name" id="contactname" placeholder="Ваше имя">
+                </div>
+                <div class="formrow">
+                    <label class="form-label" for="contactsurname">Фамилия:</label>
+                    <input class="fdbckform capitalize" type="text" name="name" id="contactsurname" placeholder="Ваша фамилия"><br>
+                </div>
+                <div class="formrow">
+                    <label class="form-label" for="emailaddress">E-mail:</label>
+                    <input class="fdbckform" type="email" name="email" id="emailaddress" placeholder="email address"><br>
+                </div>
+                <div>
+                    Пользовались ли вы уже нашими услугами ранее?<br>
+                    <label><input type="radio" name="usedbefore" checked>Нет</label>
+                    <label><input type="radio" name="usedbefore">Да</label>
+                </div>
+                <div class="formrow">
+                    <label class="form-label" for="topic">Тема:</label>
+                    <input type="text" class="fdbckform capitalize" name="topic" id="topic" placeholder="Тема сообщения"><br>
+                </div>
+                <div class="formrow">
+                    <label class="form-label" for="messagetext">Текст сообщения:</label>
+                    <textarea class="fdbmessage" placeholder="Ваше сообщение" id="messagetext"></textarea>
+                </div>
+                <div class="formrow">
+                    <button class="frmbutton" type="submit">Отправить</button>
+                    <button class="frmbutton" type="reset">Oчистить</button>
+                </div>
+            </div>
+        </form>
+        <div class="contacts">
+            <h3 class="clear-both">Котакты:</h3>
+            <p>Тел: +7(495)440-40-40</p>
+            <p>Адрес: Ленинградский проспект, 39с80, Москва, Россия, 125167</p>
+            <p> E-mail: info@nbfoton.ru</p>
+            <p>ООО "Луч" Инн: 74398804935</p>
+        </div>
+        <iframe src="https://yandex.ru/map-widget/v1/-/CCRdrO6e" width="100%" height="374px" frameborder="1" allowfullscreen="true"></iframe>
+
+        <div class="footer">
+            <p>Все права защищены&copy; Денис Кобышев</p>
+        </div>
+    </div>
+</body>
+
+</html>
